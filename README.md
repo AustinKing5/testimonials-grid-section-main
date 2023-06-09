@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AustinKing5/testimonials-grid-section-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com](https://austinking5.github.io/testimonials-grid-section-main/)
+- Solution URL: [solution URL](https://github.com/AustinKing5/testimonials-grid-section-main)
+- Live Site URL: [live site URL](https://austinking5.github.io/testimonials-grid-section-main/)
 
 ## My process
 
@@ -84,6 +84,6 @@ I learnt how to make css grid responsive.
 ## Author
 
 - Website - [Augustine Aryeteh Asare](https://github.com/AustinKing5)
-- Frontend Mentor - [@@AustinKing5](https://www.frontendmentor.io/profile/AustinKing5)
+- Frontend Mentor - [@AustinKing5](https://www.frontendmentor.io/profile/AustinKing5)
 - Twitter - [@aryetehasare](https://www.twitter.com/aryetehasare)
 
