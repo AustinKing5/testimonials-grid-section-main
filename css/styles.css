@@ -1,0 +1,241 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 1440px;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.8rem;
+    row-gap: 1.8rem;
+    margin: 6.4rem auto;
+    max-width: 80%;
+}
+
+/* texts */
+h4 {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 0;
+    z-index: 1;
+}
+
+h3 {
+    color: hsl(0, 0%, 91%);
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.Jeanette h3,
+.Kira h3 {
+    color: hsl(217, 19%, 35%);
+}
+
+blockquote {
+    color: hsl(0, 0%, 100%);
+    margin: 1rem 0 0;
+    opacity: 70%;
+}
+
+.Jeanette h4,
+.Kira h4,
+.Jeanette blockquote,
+.Kira blockquote {
+    color: hsl(217, 19%, 35%);
+}
+
+span {
+    opacity: 50%;
+}
+
+/* Testimonial cards */
+.Daniel {
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1 / 3;
+
+}
+
+.Jonathan {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.Jeanette {
+    background-color: white;
+    grid-row: -2 / 1;
+}
+
+.Patrick {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: -4 / -2;
+}
+
+.Kira {
+    background-color: white;
+    grid-column: 4/ 5;
+    grid-row: -3/ -1;
+}
+
+/* images */
+img {
+    border: #ffffff solid;
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+svg {
+    position: absolute;
+    z-index: 0;
+    right: 5.6rem;
+    top: 0rem;
+}
+
+article {
+    border-radius: 1rem;
+    position: relative;
+    padding: 1.5em 2rem;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  /* bottom: 0.5%; */
+  left: 38%; 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1024px){
+body {
+    max-width: 1024px;
+}
+
+.container{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Daniel{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+.Jonathan{
+    grid-column: -3 / -2;
+    grid-row: 3 / 4;
+}
+.Jeanette {
+    background-color: white;
+    grid-column: -4 / -3;
+    grid-row: 3 / 4;
+}
+.Patrick {
+    background-color: hsl(219, 29%, 14%);
+    /* grid-column: 1 / 3; */
+    grid-row: 2 / 3;
+}
+.Kira{
+    grid-column: 3 / 4;
+    grid-row: 1/ 3;
+}
+}
+
+@media(max-width: 375px){
+body {
+    max-width: 375px;
+}
+.container{
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(5, 1fr); */
+    max-width: 80%;
+    margin: 2rem auto;
+    column-gap: 0;
+}
+
+.Daniel{
+    grid-column: auto;
+    grid-row: 1 / 3;
+}
+.Jonathan{
+    grid-column: auto;
+    grid-row: 3 / 4;
+}
+.Jeanette{
+    grid-column: auto;
+    grid-row: 4 / 5;
+}
+.Patrick{
+    grid-column: auto;
+    grid-row: 5 / 7;
+}
+.Kira{
+    grid-column: auto;
+    grid-row: 7 / 8;
+}
+
+/* images */
+svg{
+top: 0;
+left: 65%;
+}
+
+.attribution{
+left: 19%;
+}
+}
+
+@media (max-width: 375px) {
+    body {
+        max-width: 375px;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(5, 1fr); */
+        max-width: 85%;
+        margin: 2rem auto;
+        column-gap: 0;
+    }
+    
+    .Daniel{
+        grid-column: auto;
+        grid-row: 1 / 3;
+    }
+    .Jonathan{
+        grid-column: auto;
+        grid-row: 3 / 4;
+    }
+    .Jeanette{
+        grid-column: auto;
+        grid-row: 4 / 5;
+    }
+    .Patrick{
+        grid-column: auto;
+        grid-row: 5 / 7;
+    }
+    .Kira{
+        grid-column: auto;
+        grid-row: 7 / 8;
+    }
+
+    /* images */
+svg{
+    top: 0;
+    left: 60%;
+}
+
+.attribution{
+   left: 15%;
+}
+}
+
